@@ -31,7 +31,8 @@ def find_min_max(values_list):
     min_value  = min (values_list)
     print("minimum is " ,max_value)
     print("maximum is ",min_value)
-    return 1 
+    return max_value, min_value
+    
     
 def sort_temperature(values_list): 
     print("sort temperature")

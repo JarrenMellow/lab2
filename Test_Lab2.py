@@ -1,11 +1,12 @@
-import Lab2 as lab2
+import Lab2 as lab2 
 
 
 def test_find_min_max():
     result = []
     input_array = [14,25,654,12]
     result = lab2.find_min_max(input_array)
-    assert(result==1)
+    assert(result) == (654,12)
+    
 
 
 def test_calc_average():
@@ -21,7 +22,3 @@ def test_calc_median_temp():
     result=[]
     result = lab2.calc_median_temperature(input_array)
     assert(result==test_array)
-    
-
-
-
